@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "rename-component",
+  "description": "A schematic to rename an Angular component",
+  "schematics": {
+    "rename-component": {
+      "description": "Renames an Angular component",
+      "factory": "../dist/rename-component/index#renameComponent",
+      "schema": "./rename-component/schema.json"
+    }
+  }
+}

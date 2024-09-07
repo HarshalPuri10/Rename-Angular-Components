@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "rename-component",
+  "title": "Rename Component Schema",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "Path to the component file."
+    },
+    "old": {
+      "type": "string",
+      "description": "The old name of the component."
+    },
+    "new": {
+      "type": "string",
+      "description": "The new name of the component."
+    }
+  },
+  "required": ["path", "old", "new"]
+}

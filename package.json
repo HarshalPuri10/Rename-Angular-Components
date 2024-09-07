@@ -1,0 +1,25 @@
+{
+  "name": "rename-component",
+  "version": "1.0.1",
+  "description": "A schematic for renaming Angular components",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^18.2.3",
+    "@angular-devkit/schematics": "^18.2.3",
+    "typescript": "~5.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.18.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine": "^5.0.0"
+  }
+}
